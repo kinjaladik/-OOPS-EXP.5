@@ -7,9 +7,11 @@ using namespace std;
 
 class Complex {
 private:
+
     int real, imag;
 
 public:
+
     // Default constructor
     Complex() {
         real = 0;
@@ -34,10 +36,10 @@ public:
         temp.real = real + c.real;
         temp.imag = imag + c.imag;
         return temp;
-    }
-};
+    }};
 
 int main() {
+
     Complex c1(3, 4);
     Complex c2(2, 5);
     Complex c3;
